@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -z $TBLIB_ROOT ]; then
-    echo "设置 TBLIB_ROOT 的环境变量"
+    echo "set TBLIB_ROOT to environment variables"
     exit;
 fi
 
@@ -43,4 +43,4 @@ if [ "$1" = 'clean' ]; then
 fi
 
 echo
-echo "安装在 $TBLIB_ROOT 目录下了"
+echo "installed in $TBLIB_ROOT "
